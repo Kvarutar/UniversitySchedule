@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.app {
+    margin: 0 auto;
+    background: url('./Background2.png') center center/cover no-repeat;
+    height: 100%;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 950px;
+}
+
+@media (max-width: 769px){
+    .container{
+        max-width: 625px;
+    }
+}
+
+@media (max-width: 426px){
+    .container{
+        max-width: 325px;
+    }
+}
+
+@media (max-width: 321px){
+    .container{
+        max-width: 275px;
+    }
+}

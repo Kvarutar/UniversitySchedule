@@ -1,0 +1,6 @@
+.footer{
+    display: flex;
+    padding: 30px;
+    height: 80px;
+    background: rgba(255, 255, 255, 0.79);
+}
